@@ -6,24 +6,38 @@
     line-height: 1.2em;
     margin:0;
     font-family: Roboto;
-    border: 2px red solid;
+    /*border: 2px red solid;*/
 }
 
 :root{
     --primary-color: #F9FAF8;
     --secondary-color: #E5E7EB;
+    --highlight-color: #3882F6;
     --secondary-size: 18px;
+}
+
+button{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--highlight-color);
+    color: var(--primary-color);
+    padding: 5px 20px;
+    border-radius: 10px;
+    width: 130px;
+    height: 37.5px;
+    border: none;
 }
 
 #hero{
     background-color: #1F2937;
-    height: 450px;
+    height: 535px;
 }
 
 #nav-bar{
-    max-width: 75%;
+    max-width: 70%;
     margin: auto;
-    margin-bottom: 75px;
+    margin-bottom: 120px;
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
     color: var(--primary-color);
@@ -37,12 +51,13 @@
 #nav-bar ul li{
     display: inline;
     text-align: center;
+    margin-left: 15px;
     color: var(--secondary-color);
     font-size: var(--secondary-size);
 }
 
 #content-wrap{
-    max-width: 75%;
+    max-width: 70%;
     margin: auto;
     display: flex;
     flex: 1;
@@ -60,6 +75,9 @@
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+}
+.hero-button{
+    margin-top: 15px;
 }
 #hero-image-wrap{
     color: #1F2937;
