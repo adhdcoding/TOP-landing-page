@@ -10,6 +10,8 @@
 }
 
 :root {
+  --background-primary-color: #1f2937;
+  --background-secondary-color: #e5e7eb;
   --primary-color: #f9faf8;
   --secondary-color: #e5e7eb;
   --highlight-color: #3882f6;
@@ -90,7 +92,7 @@ button {
 }
 
 #information-content {
-  height: 535px;
+  height: 500px;
 }
 .information-header {
   text-align: center;
@@ -114,4 +116,20 @@ button {
   height: 150px;
   border: 3px solid blue;
   border-radius: 20px;
+}
+
+
+#testimonial{
+    background-color: var(--background-secondary-color);
+    height: 400px;
+    text-align: center;
+}
+
+#call-to-action{
+    height: 350px;
+}
+
+footer{
+    background-color: var(--background-primary-color);
+    height: 100px;
 }
