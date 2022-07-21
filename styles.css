@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
   box-sizing: border-box;
   padding: 0px;
@@ -15,7 +14,6 @@
   --primary-color: #f9faf8;
   --secondary-color: #e5e7eb;
   --highlight-color: #3882f6;
-  --secondary-size: 18px;
 }
 
 button {
@@ -54,7 +52,7 @@ button {
   text-align: center;
   margin-left: 15px;
   color: var(--secondary-color);
-  font-size: var(--secondary-size);
+  font-size: 18px;
 }
 
 #content-wrap {
@@ -125,20 +123,54 @@ button {
   border-radius: 14px;
   margin-bottom: 8px;
 }
-
-
 #testimonial{
     background-color: var(--background-secondary-color);
     height: 430px;
     text-align: center;
-    font-size: 36px;
-    font-style: italic;
     color:var(--background-primary-color);
+}
+#quote-wrap{
+  width: 65%;
+  margin: auto;
+}
+#quote{
+  margin: auto;
+  padding-top: 125px;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 36px;
+}
+.quote-author{
+  font-size: 36px;
+  text-align: end;
 }
 
 #call-to-action{
     height: 350px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
+
+.highlight-action-box{
+  background-color: var(--highlight-color);
+  border-radius: 14px;
+  max-width: 75%;
+  margin: auto;
+  color: white;
+  display: flex;
+  flex: 1;
+  padding: 60px 100px;
+  font-size: 1.2rem;
+}
+.action-text-wrap{
+  flex-grow: 2;
+
+}
+.action-button{
+  border: 2px solid white;
+}
+
 
 footer{
     background-color: var(--background-primary-color);
