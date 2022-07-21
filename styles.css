@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
   box-sizing: border-box;
   padding: 0px;
   line-height: 1.2em;
   margin: 0;
-  font-family: Roboto;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
   /*border: 2px red solid;*/
 }
 
@@ -92,11 +92,15 @@ button {
 }
 
 #information-content {
-  height: 500px;
+  height: 450px;
 }
 .information-header {
   text-align: center;
-  margin-top: 20px;
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--background-primary-color) ;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #illustration-wrap {
@@ -109,20 +113,27 @@ button {
 }
 
 .image-card {
-  width: 150px;
+  width: 175px;
+  text-align: center;
+  color: var(--background-primary-color);
+  
 }
 .img-box {
-  width: 150px;
-  height: 150px;
-  border: 3px solid blue;
-  border-radius: 20px;
+  width: 175px;
+  height: 175px;
+  border: 4px solid blue;
+  border-radius: 14px;
+  margin-bottom: 8px;
 }
 
 
 #testimonial{
     background-color: var(--background-secondary-color);
-    height: 400px;
+    height: 430px;
     text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color:var(--background-primary-color);
 }
 
 #call-to-action{
